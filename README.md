@@ -1,7 +1,7 @@
 # MarketPlace gRPC Service
 
 ## Overview
-
+<img src="/diagram.jpg" width="600">
 The service is divided into two main components: the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
 ## Features
 
@@ -51,6 +51,3 @@ To interact with the marketplace service, run the client script:
 ```bash
 python buyer.py
 ```
-
-## Contribution
-Contributions to the project are welcome. Please ensure that any changes are accompanied by corresponding updates in the `.proto` file and regenerated gRPC code.
