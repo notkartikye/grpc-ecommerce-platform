@@ -1,9 +1,11 @@
 # MarketPlace gRPC Service
 
 ## Overview
+
 <img src="/diagram.jpg" width="600">
+
 The service is divided into two main components: the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
-## Features
+### Features
 
 - **Register Sellers**: Allows sellers to register in the marketplace.
 - **Item Management**: Enables sellers to add, update, and delete items.
