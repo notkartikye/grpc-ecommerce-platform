@@ -28,13 +28,13 @@ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. market.proto
 
 > *Note: The gRPC code needs to be generated after any changes are made to `market.proto`*
 
-#### 3. Run the Marketplace server by running:
+#### 3. Run the marketplace server by running:
 
 ```bash
 python market_server.py
 ```
 
-#### 4. Run the Client, to interact with the Marketplace:
+#### 4. Run the client, to interact with the marketplace:
 
 ```bash
 python buyer.py
