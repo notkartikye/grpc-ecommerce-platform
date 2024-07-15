@@ -1,10 +1,7 @@
-# MarketPlace gRPC Service
-
-## Overview
+# Marketplace Service using gRPC
+The service is divided into two main components: the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
 
 <img src="/diagram.jpg" width="600">
-
-The service is divided into two main components: the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
 
 ## Features
 
