@@ -39,3 +39,7 @@ python market_server.py
 ```bash
 python buyer.py
 ```
+
+```bash
+python seller.py
+```
