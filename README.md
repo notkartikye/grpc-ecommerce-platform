@@ -1,7 +1,9 @@
 # Marketplace Service using gRPC
-The service is divided into two main components: the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
+This is a gRPC-based marketplace service for distributed systems that connects buyers and sellers through a central market server. The service is divided into two main components— the server and the client. The gRPC interface is defined in `market.proto`, with auto-generated Python code (`market_pb2.py` and `market_pb2_grpc.py`) facilitating the implementation of the service and client functionality.
 
-<img src="/diagram.jpg" width="600">
+
+<img src="/diagram.jpg" width="550">
+
 
 ## Features
 
